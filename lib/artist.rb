@@ -1,3 +1,4 @@
+require 'pry'
 class Artist
   attr_accessor :name, :songs
 
@@ -37,3 +38,6 @@ class Artist
     end
   end
 end
+
+example = Artist.new("fuck")
+binding.pry
